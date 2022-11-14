@@ -8,7 +8,7 @@
     <ProjectGuid>{D58E6722-7F75-43F2-B04A-30F5A571ED28}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />
     <PlatformTarget>x64</PlatformTarget>

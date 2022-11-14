@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26403.7
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33103.184
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApplicationInsights.ServiceFabric.Net45", "ApplicationInsights.ServiceFabric\Net45\ApplicationInsights.ServiceFabric.Net45.csproj", "{00A7F547-E1D1-48B7-A5A5-0A5E061F9FC1}"
 EndProject
@@ -28,12 +28,6 @@ EndProject
 Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "ApplicationInsights.ServiceFabric.Native.Shared", "ApplicationInsights.ServiceFabric.Native.Shared\ApplicationInsights.ServiceFabric.Native.Shared.shproj", "{60F081CC-D6CD-48F1-A6E9-B6E5587AF9D9}"
 EndProject
 Global
-	GlobalSection(SharedMSBuildProjectFiles) = preSolution
-		ApplicationInsights.ServiceFabric\Shared\ApplicationInsights.ServiceFabric.Shared.projitems*{00a7f547-e1d1-48b7-a5a5-0a5e061f9fc1}*SharedItemsImports = 4
-		ApplicationInsights.ServiceFabric.Native.Shared\ApplicationInsights.ServiceFabric.Native.Shared.projitems*{60f081cc-d6cd-48f1-a6e9-b6e5587af9d9}*SharedItemsImports = 13
-		ApplicationInsights.ServiceFabric\Shared\ApplicationInsights.ServiceFabric.Shared.projitems*{782ab255-a812-4517-9ba7-191edebc0938}*SharedItemsImports = 13
-		ApplicationInsights.ServiceFabric.Native.Shared\ApplicationInsights.ServiceFabric.Native.Shared.projitems*{d58e6722-7f75-43f2-b04a-30f5a571ed28}*SharedItemsImports = 4
-	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Mixed Platforms = Debug|Mixed Platforms
 		Release|Mixed Platforms = Release|Mixed Platforms
@@ -69,5 +63,13 @@ Global
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {EE087372-F0AD-407E-9478-70B275F4C560}
+	EndGlobalSection
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		ApplicationInsights.ServiceFabric\Shared\ApplicationInsights.ServiceFabric.Shared.projitems*{00a7f547-e1d1-48b7-a5a5-0a5e061f9fc1}*SharedItemsImports = 4
+		ApplicationInsights.ServiceFabric.Native.Shared\ApplicationInsights.ServiceFabric.Native.Shared.projitems*{60f081cc-d6cd-48f1-a6e9-b6e5587af9d9}*SharedItemsImports = 13
+		ApplicationInsights.ServiceFabric\Shared\ApplicationInsights.ServiceFabric.Shared.projitems*{782ab255-a812-4517-9ba7-191edebc0938}*SharedItemsImports = 13
+		ApplicationInsights.ServiceFabric\Shared\ApplicationInsights.ServiceFabric.Shared.projitems*{a14c1a81-a954-45eb-b985-d14a109233f6}*SharedItemsImports = 5
+		ApplicationInsights.ServiceFabric.Native.Shared\ApplicationInsights.ServiceFabric.Native.Shared.projitems*{ae9702ec-d77e-49e7-8837-c00eafa07397}*SharedItemsImports = 5
+		ApplicationInsights.ServiceFabric.Native.Shared\ApplicationInsights.ServiceFabric.Native.Shared.projitems*{d58e6722-7f75-43f2-b04a-30f5a571ed28}*SharedItemsImports = 4
 	EndGlobalSection
 EndGlobal
